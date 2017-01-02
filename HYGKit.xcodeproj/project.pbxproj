@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EE31EC1D855E8200A98BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE31EB1D855E8200A98BF9 /* main.m */; };
+		B5EE31EF1D855E8200A98BF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE31EE1D855E8200A98BF9 /* AppDelegate.m */; };
+		B5EE31F71D855E8200A98BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EE31F61D855E8200A98BF9 /* Assets.xcassets */; };
+		B5EE31FA1D855E8200A98BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EE31F81D855E8200A98BF9 /* LaunchScreen.storyboard */; };
+		B5EE32051D855E8200A98BF9 /* HYGKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32041D855E8200A98BF9 /* HYGKitTests.m */; };
+		B5EE32101D855E8200A98BF9 /* HYGKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE320F1D855E8200A98BF9 /* HYGKitUITests.m */; };
+		B5EE32301D85616300A98BF9 /* SzfySystemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32231D85616200A98BF9 /* SzfySystemObject.m */; };
+		B5EE32311D85616300A98BF9 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32251D85616200A98BF9 /* UserInfo.m */; };
+		B5EE32321D85616300A98BF9 /* HYGRootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE322B1D85616200A98BF9 /* HYGRootModel.m */; };
+		B5EE32331D85616300A98BF9 /* HYGRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE322D1D85616200A98BF9 /* HYGRootView.m */; };
+		B5EE32341D85616300A98BF9 /* HYGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE322F1D85616300A98BF9 /* HYGRootViewController.m */; };
+		B5EE32461D85650000A98BF9 /* MBProgressHUD+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE323C1D85650000A98BF9 /* MBProgressHUD+Category.m */; };
+		B5EE32471D85650000A98BF9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5EE323D1D85650000A98BF9 /* MBProgressHUD.bundle */; };
+		B5EE32481D85650000A98BF9 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE323E1D85650000A98BF9 /* NSString+Category.m */; };
+		B5EE32491D85650000A98BF9 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE323F1D85650000A98BF9 /* UIImage+Category.m */; };
+		B5EE324A1D85650000A98BF9 /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32411D85650000A98BF9 /* UITextField+Category.m */; };
+		B5EE324B1D85650000A98BF9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32431D85650000A98BF9 /* UIView+Category.m */; };
+		B5EE324C1D85650000A98BF9 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32451D85650000A98BF9 /* UIViewController+Category.m */; };
+		B5EE326F1D8566B800A98BF9 /* CheckUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32531D8566B800A98BF9 /* CheckUpdate.m */; };
+		B5EE32701D8566B800A98BF9 /* HYGBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32561D8566B800A98BF9 /* HYGBlurView.m */; };
+		B5EE32711D8566B800A98BF9 /* HYGListView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32591D8566B800A98BF9 /* HYGListView.m */; };
+		B5EE32721D8566B800A98BF9 /* HYGNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE325C1D8566B800A98BF9 /* HYGNoticeCell.m */; };
+		B5EE32731D8566B800A98BF9 /* HYGNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EE325D1D8566B800A98BF9 /* HYGNoticeCell.xib */; };
+		B5EE32741D8566B800A98BF9 /* HYGNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE325F1D8566B800A98BF9 /* HYGNoticeView.m */; };
+		B5EE32751D8566B800A98BF9 /* HYGPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32621D8566B800A98BF9 /* HYGPageVC.m */; };
+		B5EE32761D8566B800A98BF9 /* HYGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32651D8566B800A98BF9 /* HYGScrollView.m */; };
+		B5EE32771D8566B800A98BF9 /* HYGTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32681D8566B800A98BF9 /* HYGTitleView.m */; };
+		B5EE32781D8566B800A98BF9 /* HYGWaitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE326B1D8566B800A98BF9 /* HYGWaitView.m */; };
+		B5EE32791D8566B800A98BF9 /* HYGOnePointView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE326E1D8566B800A98BF9 /* HYGOnePointView.m */; };
+		B5EE328F1D856EB800A98BF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE328D1D856EB800A98BF9 /* MainViewController.m */; };
+		B5EE32901D856EB800A98BF9 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EE328E1D856EB800A98BF9 /* MainViewController.storyboard */; };
+		B5EE32991D856F5C00A98BF9 /* HYGhttpRequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32931D856F5C00A98BF9 /* HYGhttpRequestHeader.m */; };
+		B5EE329A1D856F5C00A98BF9 /* HYGhttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32951D856F5C00A98BF9 /* HYGhttpService.m */; };
+		B5EE329B1D856F5C00A98BF9 /* SzfyHttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32981D856F5C00A98BF9 /* SzfyHttpService.m */; };
+		B5EE32A31D85703500A98BF9 /* DesUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE329F1D85703500A98BF9 /* DesUtil.m */; };
+		B5EE32A41D85703500A98BF9 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE32A11D85703500A98BF9 /* GTMBase64.m */; };
+		F5F2C45B49E5564FA907AE62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EA457757B4D8B56AE6AD1A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5EE32011D855E8200A98BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EE31DF1D855E8100A98BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EE31E61D855E8100A98BF9;
+			remoteInfo = HYGKit;
+		};
+		B5EE320C1D855E8200A98BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EE31DF1D855E8100A98BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EE31E61D855E8100A98BF9;
+			remoteInfo = HYGKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41B1B6E38980B6807F2D4D44 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		78A6843E64FD88BBB386DBE4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8EA457757B4D8B56AE6AD1A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE31E71D855E8200A98BF9 /* HYGKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYGKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE31EB1D855E8200A98BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5EE31ED1D855E8200A98BF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5EE31EE1D855E8200A98BF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5EE31F61D855E8200A98BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EE31F91D855E8200A98BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5EE31FB1D855E8200A98BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EE32001D855E8200A98BF9 /* HYGKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYGKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE32041D855E8200A98BF9 /* HYGKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGKitTests.m; sourceTree = "<group>"; };
+		B5EE32061D855E8200A98BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EE320B1D855E8200A98BF9 /* HYGKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYGKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE320F1D855E8200A98BF9 /* HYGKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGKitUITests.m; sourceTree = "<group>"; };
+		B5EE32111D855E8200A98BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EE32221D85616200A98BF9 /* SzfySystemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SzfySystemObject.h; sourceTree = "<group>"; };
+		B5EE32231D85616200A98BF9 /* SzfySystemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SzfySystemObject.m; sourceTree = "<group>"; };
+		B5EE32241D85616200A98BF9 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		B5EE32251D85616200A98BF9 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		B5EE32271D85616200A98BF9 /* HYGSystemDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGSystemDefine.h; sourceTree = "<group>"; };
+		B5EE32281D85616200A98BF9 /* HYGToolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGToolDefine.h; sourceTree = "<group>"; };
+		B5EE322A1D85616200A98BF9 /* HYGRootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGRootModel.h; sourceTree = "<group>"; };
+		B5EE322B1D85616200A98BF9 /* HYGRootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGRootModel.m; sourceTree = "<group>"; };
+		B5EE322C1D85616200A98BF9 /* HYGRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGRootView.h; sourceTree = "<group>"; };
+		B5EE322D1D85616200A98BF9 /* HYGRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGRootView.m; sourceTree = "<group>"; };
+		B5EE322E1D85616200A98BF9 /* HYGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGRootViewController.h; sourceTree = "<group>"; };
+		B5EE322F1D85616300A98BF9 /* HYGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGRootViewController.m; sourceTree = "<group>"; };
+		B5EE32351D85618500A98BF9 /* HYGSuperClassDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGSuperClassDefine.h; sourceTree = "<group>"; };
+		B5EE32361D85623C00A98BF9 /* HYGPodsDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGPodsDefine.h; sourceTree = "<group>"; };
+		B5EE32371D8562DB00A98BF9 /* HYGShareInstanceDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGShareInstanceDefine.h; sourceTree = "<group>"; };
+		B5EE323B1D85650000A98BF9 /* MBProgressHUD+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Category.h"; sourceTree = "<group>"; };
+		B5EE323C1D85650000A98BF9 /* MBProgressHUD+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Category.m"; sourceTree = "<group>"; };
+		B5EE323D1D85650000A98BF9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		B5EE323E1D85650000A98BF9 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		B5EE323F1D85650000A98BF9 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		B5EE32401D85650000A98BF9 /* UITextField+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
+		B5EE32411D85650000A98BF9 /* UITextField+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
+		B5EE32421D85650000A98BF9 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		B5EE32431D85650000A98BF9 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		B5EE32441D85650000A98BF9 /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		B5EE32451D85650000A98BF9 /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		B5EE324D1D85652000A98BF9 /* HYGCategoryDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGCategoryDefine.h; sourceTree = "<group>"; };
+		B5EE324E1D8565F000A98BF9 /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		B5EE324F1D8565F000A98BF9 /* UIImage+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		B5EE32521D8566B800A98BF9 /* CheckUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckUpdate.h; sourceTree = "<group>"; };
+		B5EE32531D8566B800A98BF9 /* CheckUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckUpdate.m; sourceTree = "<group>"; };
+		B5EE32551D8566B800A98BF9 /* HYGBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGBlurView.h; sourceTree = "<group>"; };
+		B5EE32561D8566B800A98BF9 /* HYGBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGBlurView.m; sourceTree = "<group>"; };
+		B5EE32581D8566B800A98BF9 /* HYGListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGListView.h; sourceTree = "<group>"; };
+		B5EE32591D8566B800A98BF9 /* HYGListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGListView.m; sourceTree = "<group>"; };
+		B5EE325B1D8566B800A98BF9 /* HYGNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGNoticeCell.h; sourceTree = "<group>"; };
+		B5EE325C1D8566B800A98BF9 /* HYGNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGNoticeCell.m; sourceTree = "<group>"; };
+		B5EE325D1D8566B800A98BF9 /* HYGNoticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYGNoticeCell.xib; sourceTree = "<group>"; };
+		B5EE325E1D8566B800A98BF9 /* HYGNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGNoticeView.h; sourceTree = "<group>"; };
+		B5EE325F1D8566B800A98BF9 /* HYGNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGNoticeView.m; sourceTree = "<group>"; };
+		B5EE32611D8566B800A98BF9 /* HYGPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGPageVC.h; sourceTree = "<group>"; };
+		B5EE32621D8566B800A98BF9 /* HYGPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGPageVC.m; sourceTree = "<group>"; };
+		B5EE32641D8566B800A98BF9 /* HYGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGScrollView.h; sourceTree = "<group>"; };
+		B5EE32651D8566B800A98BF9 /* HYGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGScrollView.m; sourceTree = "<group>"; };
+		B5EE32671D8566B800A98BF9 /* HYGTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGTitleView.h; sourceTree = "<group>"; };
+		B5EE32681D8566B800A98BF9 /* HYGTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGTitleView.m; sourceTree = "<group>"; };
+		B5EE326A1D8566B800A98BF9 /* HYGWaitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGWaitView.h; sourceTree = "<group>"; };
+		B5EE326B1D8566B800A98BF9 /* HYGWaitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGWaitView.m; sourceTree = "<group>"; };
+		B5EE326D1D8566B800A98BF9 /* HYGOnePointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGOnePointView.h; sourceTree = "<group>"; };
+		B5EE326E1D8566B800A98BF9 /* HYGOnePointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGOnePointView.m; sourceTree = "<group>"; };
+		B5EE327A1D85670900A98BF9 /* HYGPersonalLibraryDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGPersonalLibraryDefine.h; sourceTree = "<group>"; };
+		B5EE32881D85684200A98BF9 /* HYGBusinessDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGBusinessDefine.h; sourceTree = "<group>"; };
+		B5EE328C1D856EB800A98BF9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B5EE328D1D856EB800A98BF9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B5EE328E1D856EB800A98BF9 /* MainViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		B5EE32921D856F5C00A98BF9 /* HYGhttpRequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGhttpRequestHeader.h; sourceTree = "<group>"; };
+		B5EE32931D856F5C00A98BF9 /* HYGhttpRequestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGhttpRequestHeader.m; sourceTree = "<group>"; };
+		B5EE32941D856F5C00A98BF9 /* HYGhttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGhttpService.h; sourceTree = "<group>"; };
+		B5EE32951D856F5C00A98BF9 /* HYGhttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGhttpService.m; sourceTree = "<group>"; };
+		B5EE32961D856F5C00A98BF9 /* HYGhttpServiceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYGhttpServiceDefine.h; path = "../网络库/HYGhttpServiceDefine.h"; sourceTree = "<group>"; };
+		B5EE32971D856F5C00A98BF9 /* SzfyHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SzfyHttpService.h; sourceTree = "<group>"; };
+		B5EE32981D856F5C00A98BF9 /* SzfyHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SzfyHttpService.m; sourceTree = "<group>"; };
+		B5EE329E1D85703500A98BF9 /* DesUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesUtil.h; sourceTree = "<group>"; };
+		B5EE329F1D85703500A98BF9 /* DesUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesUtil.m; sourceTree = "<group>"; };
+		B5EE32A01D85703500A98BF9 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		B5EE32A11D85703500A98BF9 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		B5EE32A21D85703500A98BF9 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EE31E41D855E8100A98BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F2C45B49E5564FA907AE62 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE31FD1D855E8200A98BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE32081D855E8200A98BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		980709A10E5F739E0183FFD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B1B6E38980B6807F2D4D44 /* Pods.debug.xcconfig */,
+				78A6843E64FD88BBB386DBE4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98D395944CDAD922E3155299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8EA457757B4D8B56AE6AD1A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5EE31DE1D855E8100A98BF9 = {
+			isa = PBXGroup;
+			children = (
+				B5EE31E91D855E8200A98BF9 /* HYGKit */,
+				B5EE32031D855E8200A98BF9 /* HYGKitTests */,
+				B5EE320E1D855E8200A98BF9 /* HYGKitUITests */,
+				B5EE31E81D855E8200A98BF9 /* Products */,
+				980709A10E5F739E0183FFD9 /* Pods */,
+				98D395944CDAD922E3155299 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EE31E81D855E8200A98BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE31E71D855E8200A98BF9 /* HYGKit.app */,
+				B5EE32001D855E8200A98BF9 /* HYGKitTests.xctest */,
+				B5EE320B1D855E8200A98BF9 /* HYGKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EE31E91D855E8200A98BF9 /* HYGKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32261D85616200A98BF9 /* 系统宏 */,
+				B5EE32211D85616200A98BF9 /* 系统单例 */,
+				B5EE32291D85616200A98BF9 /* SuperClass */,
+				B5EE323A1D85650000A98BF9 /* Category类别 */,
+				B5EE32501D8566B800A98BF9 /* HYG自定义库 */,
+				B5EE32911D856F5C00A98BF9 /* 网络库 */,
+				B5EE32811D85681100A98BF9 /* 业务模块 */,
+				B5EE31EA1D855E8200A98BF9 /* Supporting Files */,
+			);
+			path = HYGKit;
+			sourceTree = "<group>";
+		};
+		B5EE31EA1D855E8200A98BF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE31ED1D855E8200A98BF9 /* AppDelegate.h */,
+				B5EE31EE1D855E8200A98BF9 /* AppDelegate.m */,
+				B5EE31F61D855E8200A98BF9 /* Assets.xcassets */,
+				B5EE31F81D855E8200A98BF9 /* LaunchScreen.storyboard */,
+				B5EE31FB1D855E8200A98BF9 /* Info.plist */,
+				B5EE31EB1D855E8200A98BF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EE32031D855E8200A98BF9 /* HYGKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32041D855E8200A98BF9 /* HYGKitTests.m */,
+				B5EE32061D855E8200A98BF9 /* Info.plist */,
+			);
+			path = HYGKitTests;
+			sourceTree = "<group>";
+		};
+		B5EE320E1D855E8200A98BF9 /* HYGKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE320F1D855E8200A98BF9 /* HYGKitUITests.m */,
+				B5EE32111D855E8200A98BF9 /* Info.plist */,
+			);
+			path = HYGKitUITests;
+			sourceTree = "<group>";
+		};
+		B5EE32211D85616200A98BF9 /* 系统单例 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32221D85616200A98BF9 /* SzfySystemObject.h */,
+				B5EE32231D85616200A98BF9 /* SzfySystemObject.m */,
+				B5EE32241D85616200A98BF9 /* UserInfo.h */,
+				B5EE32251D85616200A98BF9 /* UserInfo.m */,
+			);
+			path = "系统单例";
+			sourceTree = "<group>";
+		};
+		B5EE32261D85616200A98BF9 /* 系统宏 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32271D85616200A98BF9 /* HYGSystemDefine.h */,
+				B5EE32281D85616200A98BF9 /* HYGToolDefine.h */,
+				B5EE32361D85623C00A98BF9 /* HYGPodsDefine.h */,
+				B5EE32351D85618500A98BF9 /* HYGSuperClassDefine.h */,
+				B5EE32371D8562DB00A98BF9 /* HYGShareInstanceDefine.h */,
+				B5EE324D1D85652000A98BF9 /* HYGCategoryDefine.h */,
+				B5EE327A1D85670900A98BF9 /* HYGPersonalLibraryDefine.h */,
+				B5EE32961D856F5C00A98BF9 /* HYGhttpServiceDefine.h */,
+				B5EE32881D85684200A98BF9 /* HYGBusinessDefine.h */,
+			);
+			path = "系统宏";
+			sourceTree = "<group>";
+		};
+		B5EE32291D85616200A98BF9 /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE322A1D85616200A98BF9 /* HYGRootModel.h */,
+				B5EE322B1D85616200A98BF9 /* HYGRootModel.m */,
+				B5EE322C1D85616200A98BF9 /* HYGRootView.h */,
+				B5EE322D1D85616200A98BF9 /* HYGRootView.m */,
+				B5EE322E1D85616200A98BF9 /* HYGRootViewController.h */,
+				B5EE322F1D85616300A98BF9 /* HYGRootViewController.m */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
+		B5EE323A1D85650000A98BF9 /* Category类别 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE323B1D85650000A98BF9 /* MBProgressHUD+Category.h */,
+				B5EE323C1D85650000A98BF9 /* MBProgressHUD+Category.m */,
+				B5EE324E1D8565F000A98BF9 /* NSString+Category.h */,
+				B5EE323E1D85650000A98BF9 /* NSString+Category.m */,
+				B5EE324F1D8565F000A98BF9 /* UIImage+Category.h */,
+				B5EE323F1D85650000A98BF9 /* UIImage+Category.m */,
+				B5EE32401D85650000A98BF9 /* UITextField+Category.h */,
+				B5EE32411D85650000A98BF9 /* UITextField+Category.m */,
+				B5EE32421D85650000A98BF9 /* UIView+Category.h */,
+				B5EE32431D85650000A98BF9 /* UIView+Category.m */,
+				B5EE32441D85650000A98BF9 /* UIViewController+Category.h */,
+				B5EE32451D85650000A98BF9 /* UIViewController+Category.m */,
+				B5EE323D1D85650000A98BF9 /* MBProgressHUD.bundle */,
+			);
+			path = "Category类别";
+			sourceTree = "<group>";
+		};
+		B5EE32501D8566B800A98BF9 /* HYG自定义库 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32511D8566B800A98BF9 /* AppUpdate */,
+				B5EE32541D8566B800A98BF9 /* HYGBlurView */,
+				B5EE32571D8566B800A98BF9 /* HYGListView */,
+				B5EE325A1D8566B800A98BF9 /* HYGNoticeView */,
+				B5EE32601D8566B800A98BF9 /* HYGPageVC */,
+				B5EE32631D8566B800A98BF9 /* HYGScrollView */,
+				B5EE32661D8566B800A98BF9 /* HYGTitleView */,
+				B5EE32691D8566B800A98BF9 /* HYGWaitView */,
+				B5EE326C1D8566B800A98BF9 /* 一像素的细线view */,
+			);
+			path = "HYG自定义库";
+			sourceTree = "<group>";
+		};
+		B5EE32511D8566B800A98BF9 /* AppUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32521D8566B800A98BF9 /* CheckUpdate.h */,
+				B5EE32531D8566B800A98BF9 /* CheckUpdate.m */,
+			);
+			path = AppUpdate;
+			sourceTree = "<group>";
+		};
+		B5EE32541D8566B800A98BF9 /* HYGBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32551D8566B800A98BF9 /* HYGBlurView.h */,
+				B5EE32561D8566B800A98BF9 /* HYGBlurView.m */,
+			);
+			path = HYGBlurView;
+			sourceTree = "<group>";
+		};
+		B5EE32571D8566B800A98BF9 /* HYGListView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32581D8566B800A98BF9 /* HYGListView.h */,
+				B5EE32591D8566B800A98BF9 /* HYGListView.m */,
+			);
+			path = HYGListView;
+			sourceTree = "<group>";
+		};
+		B5EE325A1D8566B800A98BF9 /* HYGNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE325B1D8566B800A98BF9 /* HYGNoticeCell.h */,
+				B5EE325C1D8566B800A98BF9 /* HYGNoticeCell.m */,
+				B5EE325D1D8566B800A98BF9 /* HYGNoticeCell.xib */,
+				B5EE325E1D8566B800A98BF9 /* HYGNoticeView.h */,
+				B5EE325F1D8566B800A98BF9 /* HYGNoticeView.m */,
+			);
+			path = HYGNoticeView;
+			sourceTree = "<group>";
+		};
+		B5EE32601D8566B800A98BF9 /* HYGPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32611D8566B800A98BF9 /* HYGPageVC.h */,
+				B5EE32621D8566B800A98BF9 /* HYGPageVC.m */,
+			);
+			path = HYGPageVC;
+			sourceTree = "<group>";
+		};
+		B5EE32631D8566B800A98BF9 /* HYGScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32641D8566B800A98BF9 /* HYGScrollView.h */,
+				B5EE32651D8566B800A98BF9 /* HYGScrollView.m */,
+			);
+			path = HYGScrollView;
+			sourceTree = "<group>";
+		};
+		B5EE32661D8566B800A98BF9 /* HYGTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32671D8566B800A98BF9 /* HYGTitleView.h */,
+				B5EE32681D8566B800A98BF9 /* HYGTitleView.m */,
+			);
+			path = HYGTitleView;
+			sourceTree = "<group>";
+		};
+		B5EE32691D8566B800A98BF9 /* HYGWaitView */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE326A1D8566B800A98BF9 /* HYGWaitView.h */,
+				B5EE326B1D8566B800A98BF9 /* HYGWaitView.m */,
+			);
+			path = HYGWaitView;
+			sourceTree = "<group>";
+		};
+		B5EE326C1D8566B800A98BF9 /* 一像素的细线view */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE326D1D8566B800A98BF9 /* HYGOnePointView.h */,
+				B5EE326E1D8566B800A98BF9 /* HYGOnePointView.m */,
+			);
+			path = "一像素的细线view";
+			sourceTree = "<group>";
+		};
+		B5EE32811D85681100A98BF9 /* 业务模块 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32821D85681100A98BF9 /* 主页 */,
+			);
+			path = "业务模块";
+			sourceTree = "<group>";
+		};
+		B5EE32821D85681100A98BF9 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE328C1D856EB800A98BF9 /* MainViewController.h */,
+				B5EE328D1D856EB800A98BF9 /* MainViewController.m */,
+				B5EE328E1D856EB800A98BF9 /* MainViewController.storyboard */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		B5EE32911D856F5C00A98BF9 /* 网络库 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE32921D856F5C00A98BF9 /* HYGhttpRequestHeader.h */,
+				B5EE32931D856F5C00A98BF9 /* HYGhttpRequestHeader.m */,
+				B5EE32941D856F5C00A98BF9 /* HYGhttpService.h */,
+				B5EE32951D856F5C00A98BF9 /* HYGhttpService.m */,
+				B5EE32971D856F5C00A98BF9 /* SzfyHttpService.h */,
+				B5EE32981D856F5C00A98BF9 /* SzfyHttpService.m */,
+				B5EE329C1D85703500A98BF9 /* 加密库 */,
+			);
+			path = "网络库";
+			sourceTree = "<group>";
+		};
+		B5EE329C1D85703500A98BF9 /* 加密库 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE329D1D85703500A98BF9 /* Base64 */,
+			);
+			path = "加密库";
+			sourceTree = "<group>";
+		};
+		B5EE329D1D85703500A98BF9 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				B5EE329E1D85703500A98BF9 /* DesUtil.h */,
+				B5EE329F1D85703500A98BF9 /* DesUtil.m */,
+				B5EE32A01D85703500A98BF9 /* GTMBase64.h */,
+				B5EE32A11D85703500A98BF9 /* GTMBase64.m */,
+				B5EE32A21D85703500A98BF9 /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EE31E61D855E8100A98BF9 /* HYGKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EE32141D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKit" */;
+			buildPhases = (
+				97C604E190FBCC68A2FCC6C0 /* Check Pods Manifest.lock */,
+				B5EE31E31D855E8100A98BF9 /* Sources */,
+				B5EE31E41D855E8100A98BF9 /* Frameworks */,
+				B5EE31E51D855E8100A98BF9 /* Resources */,
+				05A02C6026514616D0C74615 /* Embed Pods Frameworks */,
+				1ADDED640F1D5C5D069D2BFE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYGKit;
+			productName = HYGKit;
+			productReference = B5EE31E71D855E8200A98BF9 /* HYGKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EE31FF1D855E8200A98BF9 /* HYGKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EE32171D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKitTests" */;
+			buildPhases = (
+				B5EE31FC1D855E8200A98BF9 /* Sources */,
+				B5EE31FD1D855E8200A98BF9 /* Frameworks */,
+				B5EE31FE1D855E8200A98BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EE32021D855E8200A98BF9 /* PBXTargetDependency */,
+			);
+			name = HYGKitTests;
+			productName = HYGKitTests;
+			productReference = B5EE32001D855E8200A98BF9 /* HYGKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5EE320A1D855E8200A98BF9 /* HYGKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EE321A1D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKitUITests" */;
+			buildPhases = (
+				B5EE32071D855E8200A98BF9 /* Sources */,
+				B5EE32081D855E8200A98BF9 /* Frameworks */,
+				B5EE32091D855E8200A98BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EE320D1D855E8200A98BF9 /* PBXTargetDependency */,
+			);
+			name = HYGKitUITests;
+			productName = HYGKitUITests;
+			productReference = B5EE320B1D855E8200A98BF9 /* HYGKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EE31DF1D855E8100A98BF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "侯英格";
+				TargetAttributes = {
+					B5EE31E61D855E8100A98BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B5EE31FF1D855E8200A98BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5EE31E61D855E8100A98BF9;
+					};
+					B5EE320A1D855E8200A98BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5EE31E61D855E8100A98BF9;
+					};
+				};
+			};
+			buildConfigurationList = B5EE31E21D855E8100A98BF9 /* Build configuration list for PBXProject "HYGKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EE31DE1D855E8100A98BF9;
+			productRefGroup = B5EE31E81D855E8200A98BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EE31E61D855E8100A98BF9 /* HYGKit */,
+				B5EE31FF1D855E8200A98BF9 /* HYGKitTests */,
+				B5EE320A1D855E8200A98BF9 /* HYGKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EE31E51D855E8100A98BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE32901D856EB800A98BF9 /* MainViewController.storyboard in Resources */,
+				B5EE32731D8566B800A98BF9 /* HYGNoticeCell.xib in Resources */,
+				B5EE31FA1D855E8200A98BF9 /* LaunchScreen.storyboard in Resources */,
+				B5EE31F71D855E8200A98BF9 /* Assets.xcassets in Resources */,
+				B5EE32471D85650000A98BF9 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE31FE1D855E8200A98BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE32091D855E8200A98BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A02C6026514616D0C74615 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ADDED640F1D5C5D069D2BFE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C604E190FBCC68A2FCC6C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EE31E31D855E8100A98BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE32341D85616300A98BF9 /* HYGRootViewController.m in Sources */,
+				B5EE32461D85650000A98BF9 /* MBProgressHUD+Category.m in Sources */,
+				B5EE329A1D856F5C00A98BF9 /* HYGhttpService.m in Sources */,
+				B5EE32311D85616300A98BF9 /* UserInfo.m in Sources */,
+				B5EE329B1D856F5C00A98BF9 /* SzfyHttpService.m in Sources */,
+				B5EE32771D8566B800A98BF9 /* HYGTitleView.m in Sources */,
+				B5EE32741D8566B800A98BF9 /* HYGNoticeView.m in Sources */,
+				B5EE32331D85616300A98BF9 /* HYGRootView.m in Sources */,
+				B5EE32751D8566B800A98BF9 /* HYGPageVC.m in Sources */,
+				B5EE32481D85650000A98BF9 /* NSString+Category.m in Sources */,
+				B5EE32721D8566B800A98BF9 /* HYGNoticeCell.m in Sources */,
+				B5EE32761D8566B800A98BF9 /* HYGScrollView.m in Sources */,
+				B5EE32321D85616300A98BF9 /* HYGRootModel.m in Sources */,
+				B5EE32301D85616300A98BF9 /* SzfySystemObject.m in Sources */,
+				B5EE32711D8566B800A98BF9 /* HYGListView.m in Sources */,
+				B5EE326F1D8566B800A98BF9 /* CheckUpdate.m in Sources */,
+				B5EE31EF1D855E8200A98BF9 /* AppDelegate.m in Sources */,
+				B5EE32791D8566B800A98BF9 /* HYGOnePointView.m in Sources */,
+				B5EE32A31D85703500A98BF9 /* DesUtil.m in Sources */,
+				B5EE32A41D85703500A98BF9 /* GTMBase64.m in Sources */,
+				B5EE324A1D85650000A98BF9 /* UITextField+Category.m in Sources */,
+				B5EE32991D856F5C00A98BF9 /* HYGhttpRequestHeader.m in Sources */,
+				B5EE32781D8566B800A98BF9 /* HYGWaitView.m in Sources */,
+				B5EE31EC1D855E8200A98BF9 /* main.m in Sources */,
+				B5EE328F1D856EB800A98BF9 /* MainViewController.m in Sources */,
+				B5EE324C1D85650000A98BF9 /* UIViewController+Category.m in Sources */,
+				B5EE32701D8566B800A98BF9 /* HYGBlurView.m in Sources */,
+				B5EE324B1D85650000A98BF9 /* UIView+Category.m in Sources */,
+				B5EE32491D85650000A98BF9 /* UIImage+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE31FC1D855E8200A98BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE32051D855E8200A98BF9 /* HYGKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE32071D855E8200A98BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EE32101D855E8200A98BF9 /* HYGKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EE32021D855E8200A98BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EE31E61D855E8100A98BF9 /* HYGKit */;
+			targetProxy = B5EE32011D855E8200A98BF9 /* PBXContainerItemProxy */;
+		};
+		B5EE320D1D855E8200A98BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EE31E61D855E8100A98BF9 /* HYGKit */;
+			targetProxy = B5EE320C1D855E8200A98BF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5EE31F81D855E8200A98BF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EE31F91D855E8200A98BF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EE32121D855E8200A98BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5EE32131D855E8200A98BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EE32151D855E8200A98BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B1B6E38980B6807F2D4D44 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYGKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5EE32161D855E8200A98BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A6843E64FD88BBB386DBE4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYGKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5EE32181D855E8200A98BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYGKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYGKit.app/HYGKit";
+			};
+			name = Debug;
+		};
+		B5EE32191D855E8200A98BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYGKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYGKit.app/HYGKit";
+			};
+			name = Release;
+		};
+		B5EE321B1D855E8200A98BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYGKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYGKit;
+			};
+			name = Debug;
+		};
+		B5EE321C1D855E8200A98BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYGKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyg.HYGKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYGKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EE31E21D855E8100A98BF9 /* Build configuration list for PBXProject "HYGKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE32121D855E8200A98BF9 /* Debug */,
+				B5EE32131D855E8200A98BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EE32141D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE32151D855E8200A98BF9 /* Debug */,
+				B5EE32161D855E8200A98BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EE32171D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE32181D855E8200A98BF9 /* Debug */,
+				B5EE32191D855E8200A98BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EE321A1D855E8200A98BF9 /* Build configuration list for PBXNativeTarget "HYGKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EE321B1D855E8200A98BF9 /* Debug */,
+				B5EE321C1D855E8200A98BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EE31DF1D855E8100A98BF9 /* Project object */;
+}
